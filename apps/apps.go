@@ -20,6 +20,7 @@ import (
 	"tidbyt.dev/community/apps/golfhandicap"
 	"tidbyt.dev/community/apps/googletraffic"
 	"tidbyt.dev/community/apps/jokesjokeapi"
+	"tidbyt.dev/community/apps/leetcode"
 	"tidbyt.dev/community/apps/manifest"
 	"tidbyt.dev/community/apps/mbta"
 	"tidbyt.dev/community/apps/nationaltoday"
@@ -55,6 +56,7 @@ func GetManifests() []manifest.Manifest {
 		golfhandicap.New(),
 		googletraffic.New(),
 		jokesjokeapi.New(),
+		leetcode.New(),
 		mbta.New(),
 		nationaltoday.New(),
 		nightscout.New(),
